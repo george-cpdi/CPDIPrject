@@ -1,9 +1,9 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.16.0"
 
-set :application, "cpdi-master"
-set :repo_url, "git@github.com:george-cpdi/CPDIPrject.git"
-set :deploy_to, "/var/www/cpdi-master"
+set :application, "myapp"
+set :repo_url, "https://github.com/george-cpdi/CPDIPrject.git"
+set :deploy_to, "/home/serveradmin/myapp"
 set :branch, 'master'
 set :keep_releases, 5
 set :format, :pretty
