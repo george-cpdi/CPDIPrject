@@ -2,7 +2,7 @@
 lock "~> 3.16.0"
 
 set :application, "cpdi-master"
-set :repo_url, ""
+set :repo_url, "git@github.com:george-cpdi/CPDIPrject.git"
 set :deploy_to, "/var/www/cpdi-master"
 set :branch, 'master'
 set :keep_releases, 5
